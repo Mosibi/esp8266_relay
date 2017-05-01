@@ -2,7 +2,7 @@
  *  This code switches a relay connected to port 5 (GPIO5) on an ESP8266.
  *
  *  It will connect to MQTT and listens on topic house/2/attic/cv/thermostat/relay
- *  for 'on' and 'off' commands. Every 60 seconds, it will publishes te current
+ *  for 'on' and 'off' commands. Every 60 seconds, it will publish the current
  *  state on house/2/attic/cv/thermostat/relay_state
  *  
  *  Richard Arends
